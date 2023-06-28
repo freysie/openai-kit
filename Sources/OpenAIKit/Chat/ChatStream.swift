@@ -6,6 +6,7 @@ public struct ChatStream {
     public let created: Date
     public let model: String
     public let choices: [ChatStream.Choice]
+    public let usage: Usage?
 }
 
 extension ChatStream: Codable {}
